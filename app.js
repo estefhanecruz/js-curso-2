@@ -13,8 +13,8 @@ function botaoPrompt(){
     alert(`Estive em ${nomeCidade} e lembrei de você`);
 }
 function botaoSoma(){
-    num1 = prompt(`Digite um número inteiro: `);
-    num2 = prompt(`Digite outro numero inteiro`);
+    num1 = parseInt(prompt(`Digite um número inteiro: `));
+    num2 = parseInt(prompt(`Digite outro numero inteiro`));
     soma = num1+num2;
     alert(`O resultado da soma é ${soma}`);
 }
